@@ -2,7 +2,7 @@
 
 #### Q1. Which command adds members to the replica set from MongoDB shell?
 
-- [x] `rs.add("<hostname>")`
+- [ ] `rs.add("<hostname>")`
 - [ ] `replicaSetAdd("<hostname>")`
 - [ ] `rs.insert("<hostname>")`
 - [ ] `replica.add("<hostname>")`
@@ -12,19 +12,19 @@
 - [ ] restore
 - [ ] backup
 - [ ] mongobackup
-- [x] mongodump
+- [ ] mongodump
 
 #### Q3. Which shell query displays all citizens with an age greater than or equal to 21?
 
 - [ ] `db.citizens.select('WHERE age >= 21')`
 - [ ] `db.citizens.where('age >= 21')`
 - [ ] `db.citizens.find('WHERE age >= 21')`
-- [x] `db.citizens.find({age: {$gte: 21}})`
+- [ ] `db.citizens.find({age: {$gte: 21}})`
 
 #### Q4. What does a MongoDB collection consist of?
 
 - [ ] data
-- [x] documents
+- [ ] documents
 - [ ] fields
 - [ ] rows
 
@@ -32,19 +32,19 @@
 
 - [ ] `getDateTime(_id)`
 - [ ] `_id.createDate()`
-- [x] `_id.getTimestamp()`
+- [ ] `_id.getTimestamp()`
 - [ ] `_id.getDateTime()`
 
 #### Q6. Given a cursor named myCursor, which command returns a boolean value?
 
-- [x] myCursor.hasNext()
+- [ ] myCursor.hasNext()
 - [ ] myCursor.sort()
 - [ ] myCursor.next()
 - [ ] myCursor.find()
 
 #### Q7. Which command returns a specific document in the user's collection?
 
-- [x] `db.users.find({_id: 1})`
+- [ ] `db.users.find({_id: 1})`
 - [ ] `db.users.seek({_id: 1})`
 - [ ] `db.users.query({_id: 1})`
 - [ ] `db.query.users({_id: 1})`
@@ -54,18 +54,18 @@
 - [ ] `--type jsonArray`
 - [ ] `--json`
 - [ ] `--type json`
-- [x] `--jsonArray`
+- [ ] `--jsonArray`
 
 #### Q9. Choose the shell command that connects to a MongoDB database.
 
-- [x] mongo
+- [ ] mongo
 - [ ] mongod
 - [ ] mongoconnect
 - [ ] dbconnect
 
 #### Q10. In the MongoDB shell, how can you tell if an index was used with a query?
 
-- [x] db.customers.find({lastName: 'smith'}).explain()
+- [ ] db.customers.find({lastName: 'smith'}).explain()
 - [ ] db.customers.find({lastName: 'smith'}).perf()
 - [ ] db.customers.find({lastName: 'smith'}).plan()
 - [ ] db.customers.find({lastName: 'smith'}).usedIndex()
@@ -75,7 +75,7 @@
 - [ ] Set useMemory to twice amount indicated in exception.
 - [ ] Switch a 64 bit instance of MongoDB.
 - [ ] Increase the memory of the MongoDB server.
-- [x] Set allowDiskUse to true.
+- [ ] Set allowDiskUse to true.
 
 #### Q12. What is the recommended way to delete a user?
 
